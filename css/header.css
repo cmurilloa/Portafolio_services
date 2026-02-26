@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    order: 1;
+}
+.nombre-servicios {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2563EB;
+}
+.nombre-local {
+    font-size: 30px;
+    font-weight: bold;
+    color: #10B981;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav1 {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    order: 1;
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    order: 2;
+    gap: 20px;
+    background-color: none;
+}

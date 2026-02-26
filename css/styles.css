@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -30,6 +31,7 @@ body {
     font-weight: bold;
     color: #1f6feb;
 }
+
 
 /* HERO */
 .hero {
@@ -71,7 +73,7 @@ body {
 /* LAYOUT */
 .layout {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 18fr 52fr 30fr;
     gap: 20px;
     padding: 30px;
 }
