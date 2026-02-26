@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios y productos aérea metropolitana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">ServiciosLocal</div>
+        <nav>
+            <a href="#">Categorías</a>
+            <a href="#">Publicar servicio</a>
+            <a href="#">Iniciar sesión</a>
+        </nav>
+    </header>
+
+    <!-- HERO BUSCADOR -->
+    <section class="hero">
+        <h1>¿Qué buscas? ¿Dónde?</h1>
+
+        <div class="search-box">
+            <input type="text" placeholder="Ej: Plomería, Electricista...">
+
+            <select>
+                <option value="">Selecciona municipio</option>
+                <option>Medellín</option>
+                <option>Bello</option>
+                <option>Envigado</option>
+                <option>Itagüí</option>
+                <option>Sabaneta</option>
+                <option>La Estrella</option>
+                <option>Copacabana</option>
+                <option>Girardota</option>
+                <option>Caldas</option>
+            </select>
+
+            <button>Buscar</button>
+        </div>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="layout">
+
+        <!-- FILTROS -->
+        <aside class="filters">
+            <h3>Filtros</h3>
+            <p><strong>Calificación</strong></p>
+            <p>⭐⭐⭐⭐⭐ y más</p>
+            <p>⭐⭐⭐⭐ y más</p>
+
+            <p><strong>Tipo</strong></p>
+            <p>Servicios</p>
+            <p>Productos</p>
+        </aside>
+
+        <!-- RESULTADOS -->
+        <section class="results">
+            <h3>Resultados</h3>
+
+            <div class="card">
+                <h4>Primer servicio</h4>
+                <p><strong>Proveedor:</strong> Nombre proveedor</p>
+                <p><strong>Ubicación:</strong> Ingresar ubicación</p>
+                <p><strong>Tipo:</strong> Servicio</p>
+                <p><strong>Calificación:</strong> </p>
+                <p><strong>Dirección:</strong> </p>
+            </div>
+
+            <div class="card">
+                <h4>Primer servicio</h4>
+                <p><strong>Proveedor:</strong> Nombre proveedor</p>
+                <p><strong>Ubicación:</strong> Ingresar ubicación</p>
+                <p><strong>Tipo:</strong> Servicio</p>
+                <p><strong>Calificación:</strong> </p>
+                <p><strong>Dirección:</strong> </p>
+            </div>
+
+        </section>
+
+        <!-- MAPA -->
+        <aside class="map">
+            <h3>Mapa</h3>
+            <iframe 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-75.70,6.10,-75.50,6.40&layer=mapnik" 
+                loading="lazy">
+            </iframe>
+        </aside>
+
+    </main>
+
+</body>
+</html>
