@@ -1,0 +1,23 @@
+.links-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: none;
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: small;
+    display: grid;
+    grid-template-columns: 80fr 20fr;
+
+}
+footer > p{
+    text-align: right;
+    flex: 1;
+    font-size: smaller;
+}
