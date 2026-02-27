@@ -11,27 +11,6 @@ body {
     color: #333;
 }
 
-/* NAVBAR */
-.navbar {
-    background: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 40px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-
-.navbar a {
-    text-decoration: none;
-    margin-left: 20px;
-    color: #2c3e50;
-    font-weight: 500;
-}
-
-.logo {
-    font-weight: bold;
-    color: #1f6feb;
-}
-
 
 /* HERO */
 .hero {
@@ -63,10 +42,11 @@ body {
 
 .search-box button {
     padding: 12px 25px;
-    background: #ffb703;
+    background: #10B981;
     border: none;
     border-radius: 6px;
     font-weight: bold;
+    color: white;
     cursor: pointer;
 }
 
@@ -76,13 +56,6 @@ body {
     grid-template-columns: 18fr 52fr 30fr;
     gap: 20px;
     padding: 30px;
-}
-
-/* FILTROS */
-.filters {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
 }
 
 /* RESULTADOS */

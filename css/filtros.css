@@ -1,0 +1,51 @@
+/* FILTROS */
+.filters {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filters select {
+    width: 80%;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 5px;
+}
+.filtro-clasi {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+.filtro-clasi:hover {
+    background-color: #f0f0f0;
+}
+.star-llena {
+    color: #27ae60;
+    font-size: 1.2em;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.star-vacia {
+    color: #27ae60;
+    font-size: 1.2em;
+    line-height: 1;
+    vertical-align: middle;
+    opacity: 0.35;
+}
+
+.filtros-clasi-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.vertical-checkbox label {
+    display: block;
+    margin-bottom: 8px;
+  }

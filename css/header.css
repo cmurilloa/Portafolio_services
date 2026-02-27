@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    background: white;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .search-nav {
@@ -36,7 +39,7 @@ form {
     align-items: center;
     justify-content: center;
 }
-button {
+.button-header {
     padding: 10px 20px;
     background-color: #2563EB;
     color: white;
@@ -49,6 +52,7 @@ button {
     justify-content: flex-start;
     flex: 1;
     order: 1;
+    margin-left: 20px;
 }
 
 .links-nav {
@@ -59,4 +63,11 @@ button {
     order: 2;
     gap: 20px;
     background-color: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #2c3e50;
+    font-weight: 500;
 }
