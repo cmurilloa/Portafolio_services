@@ -68,7 +68,7 @@
                 <h4>Ordenar por</h4>
             </div>
             <div>
-                <select>
+                <select name="filtro-ordenar" id="filtro-ordenar">
                     <option value=""></option>
                     <option> Tipo</option>
                     <option> Servicio</option>
@@ -94,15 +94,17 @@
             </div>
             <br>
             <div>
-                <div><h4>Tipo</h4></div>
+                <div>
+                    <h4>Tipo</h4>
+                </div>
                 <br>
                 <div class="vertical-checkbox">
-                <label>
-                    <input type="checkbox" name="Productos" value="valor1">
-                    Productos</label>
-                <label>
-                    <input type="checkbox" name="Servicios" value="valor2">
-                    Servicios</label>
+                    <label>
+                        <input type="checkbox" name="Productos" value="valor1">
+                        Productos</label>
+                    <label>
+                        <input type="checkbox" name="Servicios" value="valor2">
+                        Servicios</label>
                 </div>
 
             </div>
@@ -110,28 +112,120 @@
         </aside>
 
         <!-- RESULTADOS -->
+        <div class="results-container">
         <section class="results">
-            <h3>Resultados</h3>
+            <h3>Productos</h3>
 
             <div class="card">
-                <h4>Primer servicio</h4>
-                <p><strong>Proveedor:</strong> Nombre proveedor</p>
-                <p><strong>Ubicación:</strong> Ingresar ubicación</p>
-                <p><strong>Tipo:</strong> Servicio</p>
-                <p><strong>Calificación:</strong> </p>
-                <p><strong>Dirección:</strong> </p>
+                <p><strong>Proveedor:</strong> Centro Comercial Oviedo</p>
+                <p><strong>Ubicación:</strong> El Poblado, Medellín</p>
+                <p><strong>Tipo:</strong> Tienda multimarca (regalos, accesorios, moda)</p>
+                <p><strong>Calificación:</strong> ⭐ 4.6 (41,018 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 43A #6s-15, El Poblado, Medellín</p>
             </div>
 
             <div class="card">
-                <h4>Primer servicio</h4>
-                <p><strong>Proveedor:</strong> Nombre proveedor</p>
-                <p><strong>Ubicación:</strong> Ingresar ubicación</p>
-                <p><strong>Tipo:</strong> Servicio</p>
-                <p><strong>Calificación:</strong> </p>
-                <p><strong>Dirección:</strong> </p>
+                <p><strong>Proveedor:</strong> The House Technology</p>
+                <p><strong>Ubicación:</strong> Laureles – Estadio, Medellín</p>
+                <p><strong>Tipo:</strong> Tienda de tecnología y cámaras</p>
+                <p><strong>Calificación:</strong> ⭐ 4.9 (1,554 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 68A #43-28, Laureles – Estadio, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Olala Tiendas</p>
+                <p><strong>Ubicación:</strong> La Candelaria, Medellín</p>
+                <p><strong>Tipo:</strong> Tienda de artículos y vajillas</p>
+                <p><strong>Calificación:</strong> ⭐ 4.6 (274 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 49 #52-134, La Candelaria, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> La Bodega</p>
+                <p><strong>Ubicación:</strong> Centro Textil Molino Viejo, Medellín</p>
+                <p><strong>Tipo:</strong> Tienda de ropa / moda</p>
+                <p><strong>Calificación:</strong> ⭐ 4.4 (163 reseñas)</p>
+                <p><strong>Dirección:</strong> Calle 49 #56-15, Centro Textil Molino Viejo, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Deportes Regol | Almacén Deportivo</p>
+                <p><strong>Ubicación:</strong> La Candelaria, Medellín</p>
+                <p><strong>Tipo:</strong> Tienda de artículos deportivos</p>
+                <p><strong>Calificación:</strong> ⭐ 4.5 (468 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 49 #45-95, La Candelaria, Medellín</p>
             </div>
 
         </section>
+        <section class="results">
+            <h3>Servicios</h3>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Plomería Express</p>
+                <p><strong>Ubicación:</strong> Medellín</p>
+                <p><strong>Tipo:</strong> Servicio de plomería a domicilio</p>
+                <p><strong>Calificación:</strong> ⭐ 4.8 (1,200 reseñas)</p>
+                <p><strong>Contacto:</strong> 300-123-4567</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Electricista Rápido</p>
+                <p><strong>Ubicación:</strong> Medellín</p>
+                <p><strong>Tipo:</strong> Servicio de electricidad a domicilio</p>
+                <p><strong>Calificación:</strong> ⭐ 4.7 (950 reseñas)</p>
+                <p><strong>Contacto:</strong> 300-987-6543</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Jardinería Verde</p>
+                <p><strong>Ubicación:</strong> Medellín</p>
+                <p><strong>Tipo:</strong> Servicio de jardinería y mantenimiento de áreas verdes</p>
+                <p><strong>Calificación:</strong> ⭐ 4.6 (500 reseñas)</p>
+                <p><strong>Contacto:</strong> 300-555-1234</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Colombia VIP Services</p>
+                <p><strong>Ubicación:</strong> El Poblado, Medellín</p>
+                <p><strong>Tipo:</strong> Organización de eventos / party planner</p>
+                <p><strong>Calificación:</strong> ⭐ 4.7 (58 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 41 #9-60, El Poblado, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Medellin City Services</p>
+                <p><strong>Ubicación:</strong> El Poblado, Medellín</p>
+                <p><strong>Tipo:</strong> Agencia de viajes / servicios turísticos</p>
+                <p><strong>Calificación:</strong> ⭐ 4.5 (89 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 38 #9 A-26, El Poblado, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Top 10 Tours in Medellin</p>
+                <p><strong>Ubicación:</strong> Parque Lleras, El Poblado</p>
+                <p><strong>Tipo:</strong> Operador turístico / tours</p>
+                <p><strong>Calificación:</strong> ⭐ 4.8 (54 reseñas)</p>
+                <p><strong>Dirección:</strong> Parque Lleras, El Poblado, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Medellin VIP</p>
+                <p><strong>Ubicación:</strong> Medellín Centro</p>
+                <p><strong>Tipo:</strong> Agencia de tours / viajes</p>
+                <p><strong>Calificación:</strong> ⭐ 4.9 (470 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 43A #1A Sur-69, Medellín</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Proveedor:</strong> Arkadia Shopping Center</p>
+                <p><strong>Ubicación:</strong> Belén, Medellín</p>
+                <p><strong>Tipo:</strong> Centro comercial (servicios múltiples: tiendas, entretenimiento)</p>
+                <p><strong>Calificación:</strong> ⭐ 4.7 (22,763 reseñas)</p>
+                <p><strong>Dirección:</strong> Cra. 70 #1-141, Belén, Medellín</p>
+            </div>
+
+        </section>
+        </div>
 
         <!-- MAPA -->
         <aside class="map">
