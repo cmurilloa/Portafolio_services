@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Max",
+    "type": "Perro",
+    "age": "Adulto",
+    "edad_label": "3 años",
+    "gender": "Macho",
+    "size": "Grande",
+    "nuevo": false,
+    "adoptado": false,
+    "descripcion": "Compañero alegre y lleno de energía",
+    "image": "https://images.unsplash.com/photo-1720705313994-12cd7930da3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGRvZyUyMGFkb3B0aW9ufGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1720705313994-12cd7930da3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGRvZyUyMGFkb3B0aW9ufGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Max+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Max+·+Foto+3"
+    ],
+    "tagline": "\"El compañero perfecto para aventuras\"",
+    "traits": [
+      "🏃 Muy activo",
+      "🐕 Con otros perros",
+      "💉 Vacunado"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Luna",
+    "type": "Gato",
+    "age": "Adulto",
+    "edad_label": "4 años",
+    "gender": "Hembra",
+    "size": "Mediano",
+    "nuevo": false,
+    "adoptado": false,
+    "descripcion": "La reina tranquila del hogar",
+    "image": "https://images.unsplash.com/photo-1769256130388-9fb59d103671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwbGF5ZnVsJTIwY2F0JTIwcmVzY3VlfGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1769256130388-9fb59d103671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwbGF5ZnVsJTIwY2F0JTIwcmVzY3VlfGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Luna+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Luna+·+Foto+3"
+    ],
+    "tagline": "\"La reina del ronroneo\"",
+    "traits": [
+      "🏠 Apto apto.",
+      "😴 Tranquila",
+      "💉 Vacunada"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rocky",
+    "type": "Perro",
+    "age": "Cachorro",
+    "edad_label": "4 meses",
+    "gender": "Macho",
+    "size": "Mediano",
+    "nuevo": true,
+    "adoptado": false,
+    "descripcion": "Cachorro lleno de energía y amor",
+    "image": "https://images.unsplash.com/photo-1706745262357-5ecaa3154433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXRlJTIwcHVwcHklMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzMyNTc1MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1706745262357-5ecaa3154433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXRlJTIwcHVwcHklMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzMyNTc1MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Rocky+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Rocky+·+Foto+3"
+    ],
+    "tagline": "\"Energía sin límites\"",
+    "traits": [
+      "🧸 Juguetón",
+      "📚 En entrenamiento",
+      "💉 Vacunado"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Misi",
+    "type": "Gato",
+    "age": "Adulto",
+    "edad_label": "2 años",
+    "gender": "Macho",
+    "size": "Mediano",
+    "nuevo": true,
+    "adoptado": false,
+    "descripcion": "Gato anaranjado independiente y cariñoso",
+    "image": "https://images.unsplash.com/photo-1667518157438-05eccbadb225?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjB0YWJieSUyMGNhdHxlbnwxfHx8fDE3NzMzMjQ2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1667518157438-05eccbadb225?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmFuZ2UlMjB0YWJieSUyMGNhdHxlbnwxfHx8fDE3NzMzMjQ2ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Misi+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Misi+·+Foto+3"
+    ],
+    "tagline": "\"Independiente pero muy amoroso\"",
+    "traits": [
+      "🏠 Solo en casa",
+      "😺 Cariñoso",
+      "💉 Vacunado"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Buddy",
+    "type": "Perro",
+    "age": "Adulto",
+    "edad_label": "5 años",
+    "gender": "Macho",
+    "size": "Grande",
+    "nuevo": true,
+    "adoptado": false,
+    "descripcion": "Golden retriever ideal para familias con niños",
+    "image": "https://images.unsplash.com/photo-1651212508936-dfb6f6ea3d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXIlMjBoYXBweXxlbnwxfHx8fDE3NzMyOTk5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1651212508936-dfb6f6ea3d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXIlMjBoYXBweXxlbnwxfHx8fDE3NzMyOTk5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Buddy+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Buddy+·+Foto+3"
+    ],
+    "tagline": "\"El mejor amigo de tus hijos\"",
+    "traits": [
+      "👶 Apto niños",
+      "🧸 Juguetón",
+      "💉 Vacunado"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Toby",
+    "type": "Perro",
+    "age": "Senior",
+    "edad_label": "8 años",
+    "gender": "Macho",
+    "size": "Mediano",
+    "nuevo": true,
+    "adoptado": false,
+    "descripcion": "Perro tranquilo que busca un hogar cálido",
+    "image": "https://images.unsplash.com/photo-1596383924639-fe5d552cc862?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGVsdGVyJTIwZG9nJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzczMjcwOTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1596383924639-fe5d552cc862?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaGVsdGVyJTIwZG9nJTIwcG9ydHJhaXR8ZW58MXx8fHwxNzczMjcwOTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Toby+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Toby+·+Foto+3"
+    ],
+    "tagline": "\"El rey de los abrazos\"",
+    "traits": [
+      "🏠 Tranquilo",
+      "💤 Relajado",
+      "💉 Vacunado"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Max",
+    "type": "Perro",
+    "age": "Adulto",
+    "edad_label": "3 años",
+    "gender": "Macho",
+    "size": "Grande",
+    "nuevo": false,
+    "adoptado": false,
+    "descripcion": "Compañero alegre y lleno de energía",
+    "image": "https://images.unsplash.com/photo-1720705313994-12cd7930da3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGRvZyUyMGFkb3B0aW9ufGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "images": [
+      "https://images.unsplash.com/photo-1720705313994-12cd7930da3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGRvZyUyMGFkb3B0aW9ufGVufDF8fHx8MTc3MzM0NTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Max+·+Foto+2",
+      "https://placehold.co/600x400/e2e8f0/64748b?text=Max+·+Foto+3"
+    ],
+    "tagline": "\"El compañero perfecto para aventuras\"",
+    "traits": [
+      "🏃 Muy activo",
+      "🐕 Con otros perros",
+      "💉 Vacunado"
+    ]
+  }
+]
